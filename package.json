@@ -1,0 +1,33 @@
+{
+  "name": "deep-getset",
+  "version": "1.0.0",
+  "description": "Utilities to get and set stuff on deeply nested structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floby/node-deep-getset.git"
+  },
+  "keywords": [
+    "deep",
+    "depth",
+    "chain",
+    "getter",
+    "setter",
+    "utility",
+    "traverse",
+    "traversal"
+  ],
+  "author": "Florent Jaby <florent.jaby@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Floby/node-deep-getset/issues"
+  },
+  "homepage": "https://github.com/Floby/node-deep-getset#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.0"
+  }
+}
