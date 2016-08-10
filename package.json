@@ -4,7 +4,7 @@
   "description": "Utilities to get and set stuff on deeply nested structures",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover _mocha -- -R spec test"
+    "test": "istanbul cover --print detail _mocha -- -R spec test"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/Floby/node-deep-getset#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "istanbul": "^0.4.4",
     "mocha": "^3.0.0"
   }
